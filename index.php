@@ -13,6 +13,10 @@
       $this->year = $_year; 
       $this->genre = $_genre;
     }
+    public function filmDirector()
+    {
+      return "Diretto da $this->director."
+    }
   }
   
   $movie_1 = new Movie("Il Signore degli Anelli - Il ritorno del re","Peter Jackson","2003","fantasy");
@@ -21,3 +25,5 @@
  
   var_dump($movie_1);
   var_dump($movie_2);
+
+  ?>
