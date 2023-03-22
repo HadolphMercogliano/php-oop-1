@@ -26,11 +26,11 @@ require_once __DIR__ . "./data/db.php";
 </head>
 
 <body class="bg-dark text-light">
-  <header>
-    <h1>Lista Film</h1>
-  </header>
+
+
   <main>
     <div class="container">
+      <h1 class="mt-3 mb-5">Lista Film</h1>
       <div class="row d-flex justify-content-center ">
         <?php foreach($movies as $movie) : ?>
 
