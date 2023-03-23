@@ -1,7 +1,6 @@
-.img-custom {
-  height: 300px;
-}
 main {
-  background-color: aqua;
-  height: 100vh;
+  min-height: 100vh;
+}
+.col-4 img {
+  max-height: 500px;
 }

@@ -23,25 +23,27 @@
   </script>
 
   <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 
   <title>OOP first</title>
 </head>
 
 <body>
-  <main class=" text-light">
-    <div class="container mb-5">
-      <h1 class="mt-3 mb-5">Lista Film</h1>
-      <div class="row d-flex justify-content-center ">
-        <?php foreach($movies as $movie) : ?>
+  <div class="my-container">
+    <main class=" bg-dark text-light pb-5">
+      <div class="container mb-5">
+        <h1 class="pt-3 pb-5">Lista Film</h1>
+        <div class="row d-flex justify-content-center ">
+          <?php foreach($movies as $movie) : ?>
 
-        <?php include __DIR__ . "/template/Card.php" ?>
+          <?php include __DIR__ . "/template/Card.php" ?>
 
-        <?php endforeach ?>
+          <?php endforeach ?>
 
+        </div>
       </div>
-    </div>
-  </main>
+    </main>
+  </div>
 </body>
 
 </html>
