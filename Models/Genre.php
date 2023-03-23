@@ -1,5 +1,8 @@
 <?php 
 class Genre {
-  public $genre_name;
+  public $name;
   
+  public function __construct(string $_name) {
+    $this->name = $_name;
+  }
 }

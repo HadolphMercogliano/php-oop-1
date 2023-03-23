@@ -5,7 +5,7 @@ class Movie {
     public $title;
     public $director;
     public $year;
-    public $genre;
+    public $genres;
     public $poster;
     
     public function __construct(
@@ -13,7 +13,7 @@ class Movie {
       string $_title, 
       string $_director, 
       string $_year, 
-      array $_genre, 
+      array $_genres, 
       string $_poster
       )
     {
@@ -21,7 +21,7 @@ class Movie {
       $this->title = $_title;
       $this->director = $_director;
       $this->year = $_year; 
-      $this->genre = $_genre;
+      $this->genres = $_genres;
       $this->poster = $_poster;
       
     }
